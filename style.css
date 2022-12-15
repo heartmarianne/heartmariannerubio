@@ -1,0 +1,193 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  --primary-color: green;
+  --color-white: #fff;
+  --color-black: rgb(46, 38, 24);
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 1.3rem;
+  min-height: 100vh;
+  line-height: 1.6;
+}
+
+/* utility  */
+a {
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+p {
+  color: var(--color-black);
+}
+
+.heading-primary {
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 1;
+  color: var(--primary-color);
+  margin-top: 10px;
+  text-align: center;
+}
+
+.heading-secondary {
+  color: var(--primary-color);
+}
+
+header {
+  top: 0;
+  position: sticky;
+  height: 10vh;
+  display: flex;
+}
+
+.main-nav {
+  width: 100%;
+  background-color: var(--primary-color);
+  padding-left: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.main-nav ul li a {
+  text-transform: capitalize;
+  padding-right: 2rem;
+}
+
+.logo {
+  padding-top: 8px;
+}
+
+.logo img {
+  width: 60px;
+  height: 60px;
+}
+
+.active {
+  color: black;
+  font-size: larger;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.maincon {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+h3 {
+  display: flex;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+footer a {
+  margin: 6px;
+}
+
+footer a img:hover {
+  width: 106%;
+}
+
+.pictures {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 5%;
+}
+
+.pic img {
+  margin: 2%;
+  width: 250px;
+  height: 250px;
+  border: 3px solid yellow;
+}
+
+.pictures .pic img:hover {
+  width: 253px;
+  height: 251px;
+  border: 5px solid green;
+  box-shadow: 6px 2px 6px 2px black;
+}
+
+.heads_ms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p1 {
+  width: 50%;
+  text-align: justify;
+  padding-left: 25%;
+}
+
+.history {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2%;
+}
+
+.p2 {
+  margin: 15px;
+  text-align: justify;
+}
+
+.cpsu {
+  display: flex;
+  justify-content: center;
+}
+
+.cpsu img {
+  width: 50%;
+  height: 5%;
+}
+
+h4 {
+  font-size: x-large;
+}
+
+address {
+  font-size: small;
+  text-align: center;
+}
+
+hr {
+  width: 80%;
+}
+
+.area {
+  text-align: justify;
+}
+
+.containers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.des {
+  margin-left: 25%;
+}
+
+.des .area {
+  margin-left: -50px;
+}
+
+.description {
+  margin-left: 20%;
+}
